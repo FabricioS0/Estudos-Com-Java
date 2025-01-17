@@ -1,0 +1,19 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.OrderItem;
+import entities.Product;
+
+public class Program {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		Product p = new Product("Tv", 1000.0);
+		
+		OrderItem oi1 = new OrderItem(1000.0, 1, p);
+		
+		System.out.println(oi1);
+		sc.close();
+	}
+}

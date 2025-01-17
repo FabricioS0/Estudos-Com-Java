@@ -1,0 +1,8 @@
+package entities.enums;
+
+public enum OderStatus {
+	PEDING_PAYMENT,
+	PROCESSING,
+	SHIPPED,
+	DELIVERED
+}

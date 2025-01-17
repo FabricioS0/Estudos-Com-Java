@@ -1,0 +1,9 @@
+package Default;
+
+import entities.enums.OrderStatus;
+
+public class Main {
+	Order order = new Order(1080, newDate(), OrderStatus.PENDING_PAYMENT);
+	
+	System.out.printl(order);
+}

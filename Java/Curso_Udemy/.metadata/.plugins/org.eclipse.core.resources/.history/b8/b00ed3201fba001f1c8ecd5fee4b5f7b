@@ -1,0 +1,13 @@
+package entities;
+
+public class Order {
+	private Date moment;
+	private OrderStatus status;
+	
+	public void addItem(OrderItem item) {
+		OrderItem.add(item);
+	}
+	public void removeItem (OrderItem item) {
+		OrderItem.remove(item);
+	}
+}

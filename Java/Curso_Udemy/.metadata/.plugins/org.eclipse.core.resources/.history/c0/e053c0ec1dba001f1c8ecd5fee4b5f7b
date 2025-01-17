@@ -1,0 +1,15 @@
+package entities;
+
+public class OrderItem extends Product {
+	private Integer quantity;
+	private double price;
+	
+	public OrderItem() {
+		
+	}
+	public OrderItem(String name, double price, Integer quantity) {
+		super(name, price);
+		this.quantity = quantity;
+	}
+	
+}

@@ -1,0 +1,21 @@
+package entities;
+
+import java.util.Date;
+
+public class Order {
+	private Date moment;
+	private String orderStatus;
+	
+	public Order() {
+		
+	}
+
+	public Order(Date moment, String orderStatus) {
+		this.moment = moment;
+		this.orderStatus = orderStatus;
+	}
+	
+	public void addItem(item: OrderItem) {
+		
+	}
+}

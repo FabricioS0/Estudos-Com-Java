@@ -1,0 +1,12 @@
+package Default;
+
+import java.util.Date;
+
+import entities.Order;
+import entities.enums.OrderStatus;
+
+public class Main {
+	Order order = new Order(1080, new Date(), OrderStatus.PENDING_PAYMENT);
+	
+	System.out.printl(order);
+}
