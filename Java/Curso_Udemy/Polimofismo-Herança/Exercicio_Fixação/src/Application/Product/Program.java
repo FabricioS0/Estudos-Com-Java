@@ -1,14 +1,15 @@
-package Application;
+package Application.Product;
 
 import java.util.ArrayList;
+
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.ImportedProduct;
-import entities.Product;
-import entities.UsedProduct;
+import entities.Product.Product;
+import entities.Product.UsedProduct;
+import entities.Product.ImportedProduct;
 
 public class Program {
 	
